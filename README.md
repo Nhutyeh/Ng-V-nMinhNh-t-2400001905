@@ -1,0 +1,11 @@
+# DỰ ÁN: TỪ DỮ LIỆU ĐẾN PHÂN TÍCH VỚI PYTHON
+- **Họ và tên:** Ngô Văn Minh Nhựt
+- **MSSV:** 2400001905
+- **Lớp:** CĐ chuyên sâu KHMT1-24DTH2B-23DTH2A_hk1 26-27
+
+## Trả lời câu hỏi thu hoạch
+- **Câu 1:** Chuẩn UTF-8 quy định các ký tự tiếng Anh nằm trong bảng mã ASCII nên chỉ tốn 1 byte cho mỗi ký tự. Trong khi đó, các ký tự tiếng Việt có dấu nằm ngoài bảng ASCII nên UTF-8 cần từ 2 đến 4 byte để biểu diễn. Do đó, chuỗi tiếng Việt luôn chiếm nhiều dung lượng bộ nhớ hơn chuỗi tiếng Anh có cùng số lượng ký tự.
+- **Câu 2:** CSV có cấu trúc bảng phẳng dạng cột và dòng, tối ưu cho dữ liệu lớn và dễ đọc bằng Excel/Pandas nhưng xử lý kém dữ liệu lồng nhau. JSON có cấu trúc cây phân cấp gồm key-value, objects và arrays, rất linh hoạt cho dữ liệu phức tạp. Khi dữ liệu phân cấp lồng nhau (nested), nên dùng định dạng JSON vì nó hỗ trợ tự nhiên cấu trúc đa tầng mà không làm mất quan hệ dữ liệu hay gây lặp cột.
+- **Câu 3:** Màn hình Notepad sẽ hiển thị một loạt ký tự lạ, hỗn độn, lỗi hiển thị và có thể gây đơ hoặc lag máy. Nguyên nhân là do file ảnh lưu trữ dữ liệu dưới dạng nhị phân (binary data). Trong khi đó, Notepad là trình soạn thảo văn bản thuần túy (plain text) nên nó cố gắng dịch các byte nhị phân thành ký tự chữ viết, dẫn đến việc giải mã sai lệch hoàn toàn.
+- **Câu 4:** Cần tách thư mục data vì data/raw/ chứa dữ liệu gốc tuyệt đối không được chỉnh sửa để bảo toàn tính nguyên bản và khả năng tái lập, còn data/processed/ chứa dữ liệu đã làm sạch sẵn sàng cho mô hình. Cần file .gitignore để loại bỏ các thư mục data nặng giúp tránh làm phình to dung lượng Git, đồng thời bảo vệ các dữ liệu cá nhân hoặc nhạy cảm không bị đẩy lên GitHub công khai.
+- **Câu 5:** Điểm GPA trung bình ở mức 7.2/10, phản ánh mặt bằng chung học lực của sinh viên đạt mức Khá. Điểm GPA cao nhất đạt 9.6/10, cho thấy nhóm sinh viên xuất sắc có thành tích vượt trội. Điểm GPA thấp nhất ở mức: 4.1/10, thể hiện vẫn có một bộ phận sinh viên gặp khó khăn trong học tập. Nhìn chung, phân phối điểm tập trung chủ yếu ở khoảng 7.0 - 8.0 và có độ lệch về phía điểm Khá/Giỏi.
